@@ -21,7 +21,7 @@ Make sure you have a working Go environment (go 1.5+ is recommanded). [See the i
 
 To install `doenv`, simply run:
 ```
-$ go get github.com/PopCorp/doenv
+$ go get github.com/popcorp/doenv
 ```
 
 When you launch doenv for the first time, it will ask for a Personnal API Token.
