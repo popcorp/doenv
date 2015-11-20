@@ -22,10 +22,13 @@ Make sure you have a working Go environment (go 1.5+ is recommanded). [See the i
 To install `doenv`, simply run:
 ```
 $ go get github.com/popcorp/doenv
+$ go install github.com/popcorp/doenv
 ```
 
 When you launch doenv for the first time, it will ask for a Personnal API Token.
+
 You might generate one [in the DigitalOcean Control Panel](https://cloud.digitalocean.com/settings/applications) (doenv requires the Write permission!).
+
 Then, assuming the token is _62530fd95b6a48affc7bdeeccb01db0e2c09e18cac157f96f1a5e150e037d0aa_, run `doenv set-token 62530fd95b6a48affc7bdeeccb01db0e2c09e18cac157f96f1a5e150e037d0aa`. You're good to go !
 
 If it tells you _doenv: command not found_, Make sure your `PATH` includes to the `$GOPATH/bin` directory so your commands can be easily used:
